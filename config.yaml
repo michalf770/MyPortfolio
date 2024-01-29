@@ -1,0 +1,44 @@
+baseURL: https://example.org/
+languageCode: en-us
+title: Michał Filuś
+theme: ["PaperMod"]
+
+params:
+  defaultTheme: auto
+  disableThemeToggle: true
+  profileMode:
+    enabled: true
+    title: "<Title>" # optional default will be site title
+    subtitle: "Video Maker && Web Implementation Specialist"
+    imageUrl: "img/profile_picture.jpeg" # optional
+    imageTitle: "Profile Picture" # optional
+    imageWidth: 120 # custom size
+    imageHeight: 120 # custom size
+    buttons:
+      - name: Portfolio
+        url: "/archive"
+      - name: Contact
+        url: "/contact"
+
+  socialIcons: # optional
+    - name: "Instagram"
+      url: "https://www.instagram.com/michalfilus/"
+    - name: "LinkedIn"
+      url: "https://www.linkedin.com/in/michal-filus/"
+
+
+
+menu:
+  main:
+    - identifier: About
+      name: About
+      url: /about
+      weight: 10
+    - identifier: blog
+      name: Blog
+      url: /blog
+      weight: 30
+    - identifier: example
+      name: Contact
+      url: /contact
+      weight: 30
